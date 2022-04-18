@@ -35,11 +35,11 @@ class App extends React.Component {
 			<h1> Fetch data from an api in react </h1> {
 				items.map((item) => (
 				<ol key = { item.id } >
-					UserID: { item.userId },<br/>
-					ID: { item.id },<br/>
-					Title: { item.title },<br/>
-          Body: {item.body}<br/>
-          <button> delete</button>
+				<tr>UserID: { item.userId },<br/> </tr>
+				<tr>ID: { item.id },</tr><br/>
+				<tr>Title: { item.title },</tr><br/>
+        <tr>Body: {item.body}</tr><br/>
+        <button> delete</button>
 
 					</ol>
 				))
